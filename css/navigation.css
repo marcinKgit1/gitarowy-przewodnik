@@ -1,24 +1,30 @@
 .navigation__list {
-    list-style-type: none;
-    margin: 10px 0;
-    padding-left: 10px;
-
+  list-style-type: none;
+  margin: 10px 0;
+  padding-left: 10px;
 }
 
 .navigation__link {
-    text-decoration: none;
-    color: green;
+  text-decoration: none;
+  color: green;
 }
 
 .navigation__link:focus {
-    outline: 1px solid blue;
+  outline: 1px solid blue;
 }
 
 .navigation__link:hover {
-    color: blue;
-    outline: none;
+  color: blue;
+  outline: none;
 }
 
 .navigation__link:active {
-    color: orangered;
+  color: orangered;
+}
+
+.navigation__link--return {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(4, 4, 193, 0.732);
+  padding: 5px 10px;
 }
