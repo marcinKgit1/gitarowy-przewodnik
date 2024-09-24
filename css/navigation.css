@@ -24,7 +24,9 @@
 
 .navigation__link--return {
   text-decoration: none;
-  color: white;
-  background-color: rgba(4, 4, 193, 0.732);
-  padding: 5px 10px;
+}
+
+.navigation__button {
+  margin-left: auto;
+  margin-top: -10px;
 }
