@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.body__button {
+    margin-left: 10px;
+    color: white;
+    background-color: green;
+}
+
+
+
+.body--grey {
+    background-color: rgb(209, 206, 206);
+}
+
+
+.body__mainHeader {
+
+    color: rgb(196, 1, 1);
+    margin: auto;
+    padding-left: 25%;
+    padding-top: 20px;
+
+}
+
+.body__subHeader {
+    color: rgb(196, 1, 1);
+    margin: auto;
+    padding-left: 25%;
+    padding-top: 20px;
+
+}

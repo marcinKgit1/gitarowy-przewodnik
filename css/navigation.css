@@ -1,0 +1,24 @@
+.navigation__list {
+    list-style-type: none;
+    margin: 10px 0;
+    padding-left: 10px;
+
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: green;
+}
+
+.navigation__link:focus {
+    outline: 1px solid blue;
+}
+
+.navigation__link:hover {
+    color: blue;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: orangered;
+}
