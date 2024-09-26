@@ -27,7 +27,7 @@ html {
 
 .body__mainHeader {
   color: rgb(196, 1, 1);
-  margin: auto;
+  margin: auto 200px;
   padding-left: 10%;
   padding-top: 10px;
 }
